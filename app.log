@@ -1,0 +1,1028 @@
+2024-07-02 12:54:14.126 | INFO     | __main__:create_task:50 - New task added: {'id': 3, 'title': 'Log file testing', 'description': 'i am testing the log file as is this good desc will store in the log or not hehehehe', 'done': False}
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:28:17] "GET / HTTP/1.1" 200 -
+INFO:__main__:New task added: {'_id': '6683b336d0be710cfcc6f51f', 'title': 'mongodb test', 'description': 'Testing the mongodb is the task is getting store in the db'}
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:28:46] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:28:51] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:28:51] "GET /tasks?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:28:51] "GET /tasks?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:28:51] "GET /tasks?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:28:51] "[36mGET /tasks?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:32:50] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:32:50] "[36mGET /tasks?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:32:50] "[36mGET /tasks?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:32:50] "[36mGET /tasks?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:32:50] "[36mGET /tasks?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:35:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:35:04] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:35:29] "[35m[1mGET /tasks/3 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:35:29] "GET /tasks/3?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:35:29] "GET /tasks/3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:35:29] "GET /tasks/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:35:29] "[36mGET /tasks/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:36:18] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:36:24] "GET /tasks/6683b336d0be710cfcc6f51f HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:36:44] "[35m[1mGET /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:36:44] "GET /tasks/6683b336d0be710cfcc6f51f?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:36:44] "GET /tasks/6683b336d0be710cfcc6f51f?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:36:44] "GET /tasks/6683b336d0be710cfcc6f51f?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:36:44] "[36mGET /tasks/6683b336d0be710cfcc6f51f?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:36:52] "GET /tasks/6683b336d0be710cfcc6f51f HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:40:56] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:40:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:40:57] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:41:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:41:31] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:42:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:42:17] "GET /tasks HTTP/1.1" 200 -
+INFO:__main__:New task added: {'_id': '6683b6cc8133f3693320b7bf', 'title': 'UI testing', 'description': 'lets test the ui part after adding the list of tasks display in the UI'}
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:44:04] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:44:04] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:44:33] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:44:41] "GET /tasks/6683b336d0be710cfcc6f51f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:44:46] "[33mGET /tasks/6683b336d0be710cfcc6f51f/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:44:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:44:52] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:45:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:45:02] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:51:55] "GET /tasks HTTP/1.1" 200 -
+INFO:__main__:New task added: {'_id': '6683b8c6cb03e61125e253af', 'title': 'PUT API Testing', 'description': 'testing the put api based on the id '}
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:52:30] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:52:30] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:52:38] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:52:44] "DELETE /tasks/6683b8c6cb03e61125e253af HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:52:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:52:52] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:53:02] "[33mPUT /tasks/6683b8c6cb03e61125e253af HTTP/1.1[0m" 404 -
+INFO:__main__:New task added: {'_id': '6683b915cb03e61125e253b0', 'title': 'PUT API Testing', 'description': 'Testing the put api is working or not lets modify the data and add Mudassir '}
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:53:49] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:53:49] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:53:55] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:54:55] "[35m[1mPUT /tasks/6683b915cb03e61125e253b0 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:56:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:56:36] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:56:36] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:58:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:58:32] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:59:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 13:59:00] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:01:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:01:28] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:03:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:03:03] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:03:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:03:54] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:05:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:05:02] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:10:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:10:29] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:11:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:11:15] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:12:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:12:29] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:12:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:12:57] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:13:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:13:06] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:13:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:13:23] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:15:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:15:21] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:15:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:15:46] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:15:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:15:49] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:07] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:20] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:29] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:35] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:40] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:16:52] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:16] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:16] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:41] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:41] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:41] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:42] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:42] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:17:42] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:18:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:18:17] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:19:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:19:14] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:19:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:19:15] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:19:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:19:35] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:20:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:20:05] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:20:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:20:05] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:20:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:20:08] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:20:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:20:24] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:20:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:20:33] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:21:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:21:28] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:21:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:21:29] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:21:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:21:29] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:21:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:21:30] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:21:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:21:45] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:22:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:22:30] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:22:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:22:31] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:22:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:22:31] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:22:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:22:31] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:06] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:07] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:53] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:54] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:54] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:54] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:54] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:23:55] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:25:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:25:30] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:25:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:25:31] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:25:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:25:31] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:25:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:25:48] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:25:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:25:49] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:39:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:39:41] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:48:11] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:48:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:48:18] "GET /tasks HTTP/1.1" 200 -
+INFO:__main__:New task added: {'_id': '6683c66bcb03e61125e253b1', 'title': 'API test', 'description': 'TEst'}
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:50:44] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2024 14:50:45] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:30:03] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:30:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:30:06] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:32:02] "GET /tasks/6683b336d0be710cfcc6f51f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:32:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:32:13] "GET /tasks HTTP/1.1" 200 -
+INFO:__main__:New task added: {'_id': '6684f7803703bbf5324ceacb', 'title': 'Delete Task Test', 'description': 'Delete Task Test'}
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:32:24] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:32:35] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:32:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:32:40] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:32:46] "DELETE /tasks/6684f7803703bbf5324ceacb HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:32:52] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:36:50] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:36:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:36:57] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:37:23] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:37:50] "GET /tasks/6683b336d0be710cfcc6f51f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:38:01] "[31m[1mPOST /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:38:16] "[31m[1mPOST /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:38:23] "[31m[1mPOST /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:38:51] "[31m[1mPOST /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:39:04] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:39:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:39:06] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:39:29] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:39:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:39:31] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:40:12] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:40:26] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:41:03] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:41:17] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:41:30] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:41:38] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:46:37] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:46:53] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:47:09] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:47:10] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:47:16] "GET /tasks/6683b336d0be710cfcc6f51f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:47:28] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:48:09] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:52:05] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:52:18] "GET /tasks/6683b336d0be710cfcc6f51f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 12:52:49] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:__main__:Task updated: {'_id': '6683b336d0be710cfcc6f51f', 'title': 'Updated Task Title', 'description': 'Updated Task Description'}
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 13:30:31] "PUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 13:37:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 13:37:42] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 13:37:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 13:37:46] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 13:53:25] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 13:55:42] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 13:57:59] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 13:58:03] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 13:59:48] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:00:05] "GET /tasks HTTP/1.1" 200 -
+ERROR:__main__:Failed to update task: 400 Bad Request: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:01:00] "[35m[1mPUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 500 -
+INFO:__main__:Task updated: {'_id': '6683b336d0be710cfcc6f51f', 'title': 'New  updated Task', 'description': 'This is a new updated task'}
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:02:09] "PUT /tasks/6683b336d0be710cfcc6f51f HTTP/1.1" 200 -
+INFO:__main__:Task deleted: {'_id': ObjectId('6683b336d0be710cfcc6f51f'), 'title': 'New  updated Task', 'description': 'This is a new updated task'}
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:02:24] "DELETE /tasks/6683b336d0be710cfcc6f51f HTTP/1.1" 200 -
+INFO:__main__:New task added: {'_id': '66850ce328cdece94dc13c38', 'title': 'New Task Mudassir', 'description': 'This is a new task'}
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:03:39] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:12] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:15] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:16] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:36] "[31m[1mPOST /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:39] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:45] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:45] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:51] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:04:58] "[33mGET /resgister HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:05:02] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:05:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:05:07] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:09:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:09:47] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:09:47] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:09:47] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:09:54] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:09:55] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:09:58] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:09:58] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:09:58] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:10:00] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:10:00] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:10:00] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:11:53] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:11:58] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:11:59] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:12:39] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:12:45] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:12:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:12:45] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:12:45] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:13:41] "[31m[1mPOST /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:13:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:13:46] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:13:46] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:13:50] "[31m[1mGET /tasks/6683b336d0be710cfcc6f51f HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:13:54] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:13:55] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:13:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:13:59] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:13:59] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:15:26] "[31m[1mPOST /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:18:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:18:12] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'_id': '66851063b99c9bd7b7ce3706', 'title': 'new', 'description': 'Adding a task after adding a login page'}
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:18:35] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:18:43] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 14:18:43] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:05:54] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:05:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:05:56] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:09:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:09:00] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:09:05] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:09:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:09:10] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:09:17] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:09:18] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:09:31] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:10:23] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:10:38] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:10:40] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:11:16] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:11:18] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:12:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:12:36] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:12:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:12:36] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:22:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:22:29] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:22:59] "[31m[1mPOST /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:22:59] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:27:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:27:37] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:27:42] "[31m[1mPOST /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:27:42] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:28:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:28:35] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'_id': '66852ee26f3e5250bf083945', 'title': 'hii ', 'description': 'mudassir'}
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:28:42] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 16:28:42] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 17:59:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 17:59:26] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 17:59:43] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 17:59:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 17:59:44] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:00:24] "[31m[1mPOST /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:00:24] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:00:26] "[31m[1mPOST /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:00:26] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:00:30] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:00:30] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:00:36] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:00:36] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:27] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:27] "[33mGET /Users/mudassiruddin/Documents/python/Pyhon%20API/templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:29] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:29] "[33mGET /Users/mudassiruddin/Documents/python/Pyhon%20API/templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:36] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:36] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:37] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:37] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:40] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:41] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:41] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:41] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:41] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:41] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:51] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:51] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:51] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:51] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:01:51] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:13] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:13] "GET / HTTP/1.1" 200 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:13] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'title': 'hello', 'description': 'hello', 'user_id': ObjectId('66850a7c28cdece94dc13c37'), '_id': '668544d485e6c02e0122a46a'}
+ERROR:__main__:Failed to add task: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:20] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:20] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'title': 'hello', 'description': 'hello', 'user_id': ObjectId('66850a7c28cdece94dc13c37'), '_id': '668544d485e6c02e0122a46b'}
+ERROR:__main__:Failed to add task: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:20] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:20] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'title': 'hello', 'description': 'hello', 'user_id': ObjectId('66850a7c28cdece94dc13c37'), '_id': '668544d485e6c02e0122a46c'}
+ERROR:__main__:Failed to add task: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:20] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:20] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'title': 'hello', 'description': 'hello', 'user_id': ObjectId('66850a7c28cdece94dc13c37'), '_id': '668544d585e6c02e0122a46d'}
+ERROR:__main__:Failed to add task: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:21] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:21] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'title': 'hello', 'description': 'hello', 'user_id': ObjectId('66850a7c28cdece94dc13c37'), '_id': '668544d785e6c02e0122a46e'}
+ERROR:__main__:Failed to add task: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:23] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:23] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'title': 'hello', 'description': 'hello', 'user_id': ObjectId('66850a7c28cdece94dc13c37'), '_id': '668544e185e6c02e0122a46f'}
+ERROR:__main__:Failed to add task: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:33] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:02:33] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:04:27] "GET / HTTP/1.1" 200 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/mudassiruddin/Documents/python/Pyhon API/app.py", line 109, in get_tasks
+    return jsonify({'tasks': all_tasks})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:04:27] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'title': 'hii', 'description': 'hii', 'user_id': ObjectId('66850a7c28cdece94dc13c37'), '_id': '6685455812fabd80c80a4962'}
+ERROR:__main__:Failed to add task: Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/mudassiruddin/Documents/python/Pyhon API/app.py", line 149, in create_task
+    return jsonify({'task': new_task}), 201
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:04:32] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/mudassiruddin/Documents/python/Pyhon API/app.py", line 109, in get_tasks
+    return jsonify({'tasks': all_tasks})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:04:32] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:__main__:New task added: {'title': 'hii', 'description': 'hii', 'user_id': ObjectId('66850a7c28cdece94dc13c37'), '_id': '668545b981895727439737e7'}
+ERROR:__main__:Failed to add task: Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/mudassiruddin/Documents/python/Pyhon API/app.py", line 149, in create_task
+    return jsonify({'task': new_task}), 201
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:06:09] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/mudassiruddin/Documents/python/Pyhon API/app.py", line 109, in get_tasks
+    return jsonify({'tasks': all_tasks})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:06:09] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:06:10] "GET / HTTP/1.1" 200 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/mudassiruddin/Documents/python/Pyhon API/app.py", line 109, in get_tasks
+    return jsonify({'tasks': all_tasks})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:06:10] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'title': 'as', 'description': 'as', 'user_id': ObjectId('66850a7c28cdece94dc13c37'), '_id': '668545be81895727439737e8'}
+ERROR:__main__:Failed to add task: Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/mudassiruddin/Documents/python/Pyhon API/app.py", line 149, in create_task
+    return jsonify({'task': new_task}), 201
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:06:14] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/mudassiruddin/Documents/python/Pyhon API/app.py", line 109, in get_tasks
+    return jsonify({'tasks': all_tasks})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:06:14] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:__main__:New task added: {'title': 'as', 'description': 'as', 'user_id': ObjectId('66850a7c28cdece94dc13c37'), '_id': '668545d281895727439737e9'}
+ERROR:__main__:Failed to add task: Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/mudassiruddin/Documents/python/Pyhon API/app.py", line 149, in create_task
+    return jsonify({'task': new_task}), 201
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:06:34] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+ERROR:__main__:Failed to fetch tasks: Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/mudassiruddin/Documents/python/Pyhon API/app.py", line 109, in get_tasks
+    return jsonify({'tasks': all_tasks})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ObjectId is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:06:34] "[35m[1mGET /tasks HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:10:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:10:04] "GET /tasks HTTP/1.1" 200 -
+INFO:__main__:New task added: {'title': 'asd', 'description': 'dfsd', 'user_id': '66850a7c28cdece94dc13c37', '_id': '668546a9eabb74f8154ac0c8'}
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:10:09] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:10:09] "GET /tasks HTTP/1.1" 200 -
+INFO:__main__:New task added: {'title': 'asdasd', 'description': 'asdsa', 'user_id': '66850a7c28cdece94dc13c37', '_id': '668546b2eabb74f8154ac0c9'}
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:10:18] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:10:18] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:10:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:10:21] "GET /tasks HTTP/1.1" 200 -
+INFO:__main__:New task added: {'title': 'asdas', 'description': 'asdad', 'user_id': '66850a7c28cdece94dc13c37', '_id': '668546c6eabb74f8154ac0ca'}
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:10:38] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:10:38] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:46] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:47] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:47] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:47] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:48] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:48] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:48] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:48] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:48] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:49] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:49] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:12:49] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:13:01] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:13:02] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2024 18:13:09] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 10:08:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 10:08:33] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:17:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:17:21] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:22:03] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:24:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:24:55] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:25:05] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:25:05] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:25:07] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:25:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:25:07] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:26:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:26:46] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:26:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:26:47] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:26:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:26:47] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:26:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:26:47] "GET /tasks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:28:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:28:54] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:29:23] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:29:23] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:29:24] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:29:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:29:24] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:29:36] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:29:36] "[33mGET /templates/login.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:29:42] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:29:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:29:42] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 14:30:47] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in '/Users/mudassiruddin/Documents/python/Pyhon API/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 705-100-140
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 15:27:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 15:27:21] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [04/Jul/2024 15:32:39] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -

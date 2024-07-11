@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 20px;
+            padding: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        label {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        button {
+            align-self: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #fff;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: space-between; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
+        <div id="addTaskSection" style="flex: 1; margin-right: 30px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+            <h1 style="text-align: center; color: #333;">Add Task</h1>
+            <form id="addTaskForm" style="display: flex; flex-direction: column;">
+                <label for="addTitle" style="margin-bottom: 10px; color: #555;">Title:</label>
+                <input type="text" id="addTitle" name="title" required style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 20px;">
+                <label for="addDescription" style="margin-bottom: 10px; color: #555;">Description:</label>
+                <textarea id="addDescription" name="description" rows="4" style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 20px;"></textarea>
+                <button type="submit" style="align-self: center; background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;">Add Task</button>
+            </form>
+        </div>
+
+        <div id="updateTaskSection" style="flex: 1; margin-right: 30px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+            <h1 style="text-align: center; color: #333;">Update Task</h1>
+            <form id="updateTaskForm" style="display: flex; flex-direction: column;">
+                <label for="updateId" style="margin-bottom: 10px; color: #555;">Task ID:</label>
+                <input type="text" id="updateId" name="id" required style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 20px;">
+                <label for="updateTitle" style="margin-bottom: 10px; color: #555;">New Title:</label>
+                <input type="text" id="updateTitle" name="title" style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 20px;">
+                <label for="updateDescription" style="margin-bottom: 10px; color: #555;">New Description:</label>
+                <textarea id="updateDescription" name="description" rows="4" style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 20px;"></textarea>
+                <button type="submit" style="align-self: center; background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;">Update Task</button>
+            </form>
+        </div>
+
+        <div id="deleteTaskSection" style="flex: 1; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+            <h1 style="text-align: center; color: #333;">Delete Task</h1>
+            <form id="deleteTaskForm" style="display: flex; flex-direction: column;">
+                <label for="deleteId" style="margin-bottom: 10px; color: #555;">Task ID:</label>
+                <input type="text" id="deleteId" name="id" required style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 20px;">
+                <button type="submit" style="align-self: center; background-color: #ff4c4c; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;">Delete Task</button>
+            </form>
+        </div>
+    </div>
+
+    <h2>Tasks</h2>
+    <ul id="taskList"></ul>
+
+    <script>
+        const token = localStorage.getItem('token');
+        if (!token) {
+            window.location.replace('/login'); // Redirect to login if no token
+        }
+
+        // Function to fetch tasks
+        async function fetchTasks() {
+            try {
+                const response = await fetch('/tasks', {
+                    headers: {
+                        'x-access-token': token
+                    }
+                });
+                if (!response.ok) {
+                    throw new Error('Failed to fetch tasks');
+                }
+                const data = await response.json();
+                return data.tasks;
+            } catch (error) {
+                console.error('Error fetching tasks:', error.message);
+                return [];
+            }
+        }
+
+        // Function to render tasks in the UI
+        async function fetchTasks() {
+            const response = await fetch('/tasks', {
+                method: 'GET',
+                headers: {
+                    'x-access-token': 'your_jwt_token_here'
+                }
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                renderTasks(data.tasks);
+            } else {
+                const errorData = await response.json();
+                console.error('Error fetching tasks:', errorData.error);
+                alert('Failed to fetch tasks');
+            }
+        }
+
+        function renderTasks(tasks) {
+            const taskList = document.getElementById('task-list');
+            taskList.innerHTML = '';  // Clear previous tasks
+
+            tasks.forEach(task => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${task.title}: ${task.description}`;
+                taskList.appendChild(listItem);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            fetchTasks();
+        });
+
+        // Initial load of tasks
+        renderTasks();
+
+        // Function to handle adding a new task
+        document.getElementById('addTaskForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            try {
+                const response = await fetch('/tasks', {
+                    method: 'POST',
+                    headers: {
+                        'x-access-token': token,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(Object.fromEntries(formData))
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to add task');
+                }
+
+                const newTask = await response.json();
+
+                const taskList = document.getElementById('taskList');
+                const taskItem = document.createElement('li');
+                taskItem.textContent = `${newTask.task.title} - ${newTask.task.description}`;
+                taskList.appendChild(taskItem);
+
+                this.reset(); // Reset the form after successful submission
+            } catch (error) {
+                console.error('Error adding task:', error.message);
+                // Handle error display or logging as needed
+            } finally {
+                renderTasks(); // Refresh task list after adding or error
+            }
+        });
+
+        // Function to handle updating an existing task
+        document.getElementById('updateTaskForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            const id = formData.get('id');
+            try {
+                const response = await fetch(`/tasks/${id}`, {
+                    method: 'PUT',
+                    headers: {
+                        'x-access-token': token,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(Object.fromEntries(formData))
+                });
+                if (!response.ok) {
+                    throw new Error('Failed to update task');
+                }
+                const updatedTask = await response.json();
+                renderTasks(); // Refresh task list after updating
+                this.reset();
+            } catch (error) {
+                console.error('Error updating task:', error.message);
+                // Handle error display or logging as needed
+            }
+        });
+
+        // Function to handle deleting a task
+        document.getElementById('deleteTaskForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            const id = formData.get('id');
+            try {
+                const response = await fetch(`/tasks/${id}`, {
+                    method: 'DELETE',
+                    headers: {
+                        'x-access-token': token
+                    }
+                });
+                if (!response.ok) {
+                    throw new Error('Failed to delete task');
+                }
+                const result = await response.json();
+                alert(result.message); // Display a message or handle as needed
+                renderTasks(); // Refresh task list after deletion
+                this.reset();
+            } catch (error) {
+                console.error('Error deleting task:', error.message);
+                // Handle error display or logging as needed
+            }
+        });
+    </script>
+</body>
+</html>
